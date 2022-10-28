@@ -1,6 +1,6 @@
-# TODO: PROJECT NAME HERE
+# Public Bike Pump Finder
 
-TODO: Brief outline of your project describing the dataset
+This app enables cyclists to find publicly available pumps and toolsets. Its based on the Public Bike Pump dataset available on Bristol Open Data.
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
