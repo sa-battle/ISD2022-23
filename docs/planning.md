@@ -26,4 +26,4 @@ This is the context diagram for the bike pump finder.
 * The app will be built using HTML / JavaScript technology
 * Confirm that the data is publicly licensed
 
-![Insert your Context Diagram Here](context.png)
+![Insert your Context Diagram Here](images/context.png)
