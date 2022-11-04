@@ -3,8 +3,10 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+* As a cyclist I want to be able to find public bike pumps in case I get a puncture.
+* As a cyclist I need access to tools to change my inner tube
+* As a cyclist I want to know where the nearest bike pumps are on my route so I can find them easily.
+
 
 ### Actors
 TODO: List and describe the actors/users for this product.
