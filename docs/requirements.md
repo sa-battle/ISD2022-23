@@ -5,11 +5,13 @@
 ### User stories
 * As a cyclist I want to be able to find public bike pumps in case I get a puncture.
 * As a cyclist I need access to tools to change my inner tube
-* As a cyclist I want to know where the nearest bike pumps are on my route so I can find them easily.
+* As a bike rider I want to know where the nearest bike pumps are on my route so I can find them easily.
+* As a UWE manager, I need to know what bike pumps we need to maintain on our premises.
 
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+* **Cyclist**: A person who rides a bike for pleasure or for work.
+* **Manager**: A person responsible for maintaining public bike pumps.
 
 ### Use Cases
 TODO: Describe each use case (one per team member).
