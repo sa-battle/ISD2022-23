@@ -62,6 +62,12 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
 
+<action><result><object>
+
+* **FR1**: The system must get user location or default location if access is denied.
+* **FR2**: The system must query for nearest pumps using the bike pump database
+* **FR3**: The system must list closest pumps using query results
+
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
