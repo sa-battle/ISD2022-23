@@ -30,15 +30,15 @@ TODO: Describe each use case (one per team member).
 
 
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| UC2 | Find public tool stations | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
+| **Description** | Find tool stations that are closest to the user. |
 | **Actors** | TODO: List of actors involved in use case |
 | **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
 | **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Issues** | Tool stations and bike pump stations may overlap |
 
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
