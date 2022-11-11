@@ -20,13 +20,13 @@ TODO: Describe each use case (one per team member).
 
 | UC1 | Find public bike pumps | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** | Find public bike pumps that are nearest to the user. |
+| **Actors** | Cyclist |
+| **Assumptions** | None |
+| **Steps** | 1) get user location 2) query database for pump locations 3) list closest pumps |
+| **Variations** | If user location isn't available, use a sensible default |
+| **Non-functional** | 1) list 5 nearest pumps 2) don't list anything further than 5 miles away |
+| **Issues** | None |
 
 
 
