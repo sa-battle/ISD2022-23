@@ -70,7 +70,16 @@ TODO: create a list of functional requirements.
 
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+NFRs using ISO 9126 software quality.
 
-Indicate which UC the requirement comes from.
+## Maintainability
+
+* **NFR1**: The software development process will use unit-testing. (all use-cases)
+
+## Efficiency
+
+* **NFR2**: The software client will be lightweight such that it loads in under 1 second on a typical broadband line (>1Mbps). (all use cases)
+
+## Portability
+
+* **NFR3**: The software must be written so as to be cross-platform, running on IOS (>v10) and Android (>v5).
