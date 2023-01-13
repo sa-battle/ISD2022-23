@@ -7,7 +7,6 @@ Describe it in terms of interactions between the components introduces above, an
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequence.png)
 
 ## User Interface design
-TODO: Specify and develop a user interface mockup using a wireframe.
+This is a wireframe for the Bike Pump Finder App. In this scenario the user can select "find bike pumps" that takes them to a table.
 
 ![Insert your wireframe screenshots for each use-case here](images/wireframe.png)
-TODO: repeat as necessary
