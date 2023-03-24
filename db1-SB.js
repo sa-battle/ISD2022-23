@@ -15,15 +15,15 @@ connection.connect(function(err){
 	}
 });
 
-var QUERY = 'SELECT * FROM `public-bike-pumps`';
+// SQL query with a placeholder '?'
+var QUERY = "SELECT * FROM `public-bike-pumps` WHERE TYPE = ?";
 
-connection.query(QUERY, function(err, rows, fields) {
+connection.query(QUERY, ['On street bike pump'], function(err, rows, fields) {
     if (err) throw err;
     for (var i=0; i<rows.length; i++) {
         // change these attributes to those in your database
-        console.log(rows[i].OBJECTID, rows[i].NAME);
+        console.log(rows[i].OBJECTID, rows[i].NAME, rows[i].TYPE);
     }
 });
 
 connection.end();
-console.log("finished");
