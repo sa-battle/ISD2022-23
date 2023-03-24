@@ -14,3 +14,16 @@ connection.connect(function(err){
     	console.log("Connected as: ", connection.threadId);    
 	}
 });
+
+var QUERY = 'SELECT * FROM `public-bike-pumps`';
+
+connection.query(QUERY, function(err, rows, fields) {
+    if (err) throw err;
+    for (var i=0; i<rows.length; i++) {
+        // change these attributes to those in your database
+        console.log(rows[i].OBJECTID, rows[i].NAME);
+    }
+});
+
+connection.end();
+console.log("finished");
