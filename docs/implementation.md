@@ -1,7 +1,7 @@
 # Implementation
 
 ## Introduction
-TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
+This is version v0.1 of the Bike Pump Finder application using Bristol Open Data's [Public Bike Pumps dataset](https://opendata.bristol.gov.uk/explore/dataset/public-bike-pumps/information/) containing 28 rows of data. It allows users to find local public tool stations and pumps to effect bike repairs on the go. There are no outstanding issues.
 
 ## Project Structure
 TODO: Provide an outline of the project folder structure and the role of each file within it (not the contents of node_modules).

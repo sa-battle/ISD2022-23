@@ -19,7 +19,20 @@
         <button class="w3-block w3-blue w3-border w3-border-white">Map</button>
       </nav>
       <main>
-        <iframe src="https://opendata.bristol.gov.uk/explore/embed/dataset/public-bike-pumps/table/?&static=false&datasetcard=false" width="1000" height="600" frameborder="0"></iframe>
+        <table>
+          <tr>
+            <th>NAME</th>
+            <th>TYPE</th>
+            <th>MAINTAINED</th>
+          </tr>
+          <% for (var i=0; i<rows.length; i++) { %>
+          <tr>
+            <td><%= rows[i].NAME %></td>
+            <td><%= rows[i].TYPE %></td>
+            <td><%= rows[i].MAINTAINED %></td>
+          </tr>
+          <% } %>
+        </table>
       </main>
     </div>
   </body>

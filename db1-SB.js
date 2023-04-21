@@ -22,7 +22,7 @@ connection.query(QUERY, ['On street bike pump'], function(err, rows, fields) {
     if (err) throw err;
     for (var i=0; i<rows.length; i++) {
         // change these attributes to those in your database
-        console.log(rows[i].OBJECTID, rows[i].NAME, rows[i].TYPE);
+        console.log(rows[i].NAME, rows[i].TYPE, rows[i].MAINTAINED);
     }
 });
 
