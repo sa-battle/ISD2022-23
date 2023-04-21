@@ -29,6 +29,6 @@ This is the eslint report:
   30:49  error  'fields' is defined but never used  no-unused-vars
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+The software has a 3-tier service -oriented architecture. A MySQl database stores Public Bike Pump data. The web server uses Node. The web app is an HTML web-application.
 
 ![Insert your component Diagram here](images/component.png)
