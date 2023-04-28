@@ -9,16 +9,22 @@
     <d class="grid-container">
       <header>
         Bike Pump Finder
-        <span id="search">
-        <input  placeholder="Search...">
-        <i class="fa fa-search"></i>
-        </span>
+        <form id="search" action="search.html">
+          <input name="search" placeholder="Search...">
+          <button><i class="fa fa-search" class="w3-button"></i></button>
+        </form>
       </header>
       <nav>
-        <button class="w3-block w3-blue w3-border w3-border-white">Find bike pumps</button>
+        <button class="w3-block w3-blue w3-border w3-border-white"
+        onclick="location.href='bikepumps.html'">Find bike pumps</button>
         <button class="w3-block w3-blue w3-border w3-border-white">Map</button>
       </nav>
       <main>
+        <div class="w3-bar w3-green">
+          <button onclick="location.href='typetable.html?type=Bike Tool Station';" class="w3-bar-item w3-button w3-ripple">Bike Tool Station</button>
+          <button onclick="location.href='typetable.html?type=On street bike pump';" class="w3-bar-item w3-button w3-ripple">On street bike pump</button>
+          <button onclick="location.href='typetable.html?type=Bike Pump %26 Tool Station';" class="w3-bar-item w3-button w3-ripple">Bike Pump & Tool Station</button>
+        </div>
         <table>
           <tr>
             <th>NAME</th>

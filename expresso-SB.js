@@ -5,7 +5,9 @@ var mysql = require('mysql');
 
 const PORT = 8080;
 // SQL query with a placeholder '?'
-const QUERY = "SELECT * FROM `public-bike-pumps` LIMIT 10";
+const QUERY = "SELECT * FROM `public-bike-pumps`";
+const TYPE_QUERY = "SELECT * FROM `public-bike-pumps` WHERE TYPE=?";
+const SEARCH_QUERY = "SELECT * FROM `public-bike-pumps` WHERE NAME LIKE ?";
 
 var app = express();
 app.set("view engine","ejs");
@@ -26,15 +28,34 @@ connection.connect(function(err){
 	}
 });
 
-app.get("/", function(request, response) {
+app.get("/bikepumps.html", function(request, response) {
     connection.query(QUERY, function(err, rows, fields) {
         if (err) {
             response.status(500);
             response.send(err);
         }
-        response.render("proto1-sb", { 'rows': rows });
+        response.render("table", { 'rows': rows });
     });
+});
 
+app.get("/typetable.html", function(request, response) {
+    connection.query(TYPE_QUERY, [ request.query.type ], function(err, rows, fields) {
+        if (err) {
+            response.status(500);
+            response.send(err);
+        }
+        response.render("table", { 'rows': rows });
+    });
+});
+
+app.get("/search.html", function(request, response) {
+    connection.query(SEARCH_QUERY, [ "%"+request.query.search+"%" ], function(err, rows, fields) {
+        if (err) {
+            response.status(500);
+            response.send(err);
+        }
+        response.render("table", { 'rows': rows });
+    });
 });
 
 // start server
